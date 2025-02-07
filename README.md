@@ -8,7 +8,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/Kuldeep-Padshala/DSA">
-    <img src="Images/Logo.png" alt="Logo" width="80" height="80">
+    <img src="Images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">DSA</h3>
