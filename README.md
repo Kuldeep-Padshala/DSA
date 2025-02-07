@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/Kuldeep-Padshala/DSA">
 <!--     <img src="Images/logo.png" alt="Logo" width="80" height="80"> -->
-    ⭐️
+    <h2>⭐️</h2>
   </a>
 
   <h3 align="center">DSA</h3>
