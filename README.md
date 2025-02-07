@@ -73,9 +73,9 @@ Contributions are what make the open source community such an amazing place to l
 
 Kuldeep Padshala - 24010101196@darshan.ac.in 
 
-Social - [![GitHub followers](https://img.shields.io/github/followers/USERNAME?style=social)](https://github.com/Kuldeep-Padshala) | 
-         [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/kuldeep-patel-5434b9242/)
-
-Project Link: [Newsweek Clone - Repository](https://github.com/ermin-cahtarevic/newsweek/tree/developer-branch)
+Social - [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/kuldeep-patel-5434b9242/) |
+         [![GitHub](https://img.shields.io/github/followers/Kuldeep-Padshala?style=social)](https://github.com/Kuldeep-Padshala) 
+         
+Project Link: [DSA Clone-Repository](https://github.com/Kuldeep-Padshala/DSA/tree/main-branch)
 
 - - -
