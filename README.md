@@ -1,7 +1,6 @@
 [![Contributors](https://img.shields.io/github/contributors/Kuldeep-Padshala/DSA)](https://github.com/Kuldeep-Padshala/DSA/graphs/contributors)
-[![GitHub forks](https://img.shields.io/github/forks/Kuldeep-Padshala/DSA)](https://github.com/Kuldeep-Padshala/DSA/forks)
 [![Issues](https://img.shields.io/github/issues/Kuldeep-Padshala/DSA)](https://github.com/Kuldeep-Padshala/DSA/graphs/issues)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/kuldeep-patel-5434b9242/)
+[![GitHub forks](https://img.shields.io/github/forks/Kuldeep-Padshala/DSA)](https://github.com/Kuldeep-Padshala/DSA/forks)
 
 <br />
 <p align="center">
@@ -12,7 +11,7 @@
   <h3 align="center">DSA</h3>
 
    <p align="center">
-    A Complete in-depth collection of <b>Data Structures and Algorithms</b>.
+    A Complete in-depth Resource of <b>Data Structures and Algorithms</b>.
     <br />
     <br />
    </p>
@@ -42,3 +41,41 @@
 ### Built With
 
 ![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
+
+- - -
+
+## Get a local copy
+
+**Clone the repository by running this command in your terminal**
+```
+git clone https://github.com/Kuldeep-Padshala/DSA.git
+```
+**Navigate into the newly created folder**
+```
+cd newsweek
+```
+
+**Open the index.html file in your browser to see the website** 
+- - -
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+- - -
+
+## Contact
+
+Kuldeep Padshala - 24010101196@darshan.ac.in 
+
+Social - [![GitHub followers](https://img.shields.io/github/followers/USERNAME?style=social)](https://github.com/Kuldeep-Padshala) | 
+         [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/kuldeep-patel-5434b9242/)
+
+Project Link: [Newsweek Clone - Repository](https://github.com/ermin-cahtarevic/newsweek/tree/developer-branch)
+
+- - -
