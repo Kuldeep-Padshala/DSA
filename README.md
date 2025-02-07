@@ -1,4 +1,5 @@
 [![Contributors][contributors-shield]][contributors-url]
+[![Contributors](https://img.shields.io/github/contributors/Kuldeep-Padshala/DSA)](https://github.com/Kuldeep-Padshala/DSA/graphs/contributors)
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
