@@ -1,15 +1,13 @@
-[![Contributors][contributors-shield]][contributors-url]
 [![Contributors](https://img.shields.io/github/contributors/Kuldeep-Padshala/DSA)](https://github.com/Kuldeep-Padshala/DSA/graphs/contributors)
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![Forks](https://img.shields.io/github/forks/Kuldeep-Padshala/DSA)](https://github.com/Kuldeep-Padshala/DSA/graphs/forks)
+[![Issues](https://img.shields.io/github/issues/Kuldeep-Padshala/DSA)](https://github.com/Kuldeep-Padshala/DSA/graphs/issues)
+[![LinkedIn](https://img.shields.io/github/LinkedIn/Kuldeep-Padshala/DSA)](https://www.linkedin.com/in/kuldeep-patel-5434b9242/)
 
 <br />
 <p align="center">
   <a href="https://github.com/Kuldeep-Padshala/DSA">
-    <img src="Images/logo.png" alt="Logo" width="80" height="80">
+<!--     <img src="Images/logo.png" alt="Logo" width="80" height="80"> -->
+    ⭐️
   </a>
 
   <h3 align="center">DSA</h3>
