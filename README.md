@@ -1,12 +1,12 @@
 [![Contributors](https://img.shields.io/github/contributors/Kuldeep-Padshala/DSA)](https://github.com/Kuldeep-Padshala/DSA/graphs/contributors)
 [![Forks](https://img.shields.io/github/forks/Kuldeep-Padshala/DSA)](https://github.com/Kuldeep-Padshala/DSA/forks)
 [![Issues](https://img.shields.io/github/issues/Kuldeep-Padshala/DSA)](https://github.com/Kuldeep-Padshala/DSA/graphs/issues)
-[![Linkedin](https://img.shields.io/github/Linkedin/Kuldeep-Padshala/DSA)](https://www.linkedin.com/in/kuldeep-patel-5434b9242/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/kuldeep-patel-5434b9242/)
 
 <br />
 <p align="center">
   <a href="https://github.com/Kuldeep-Padshala/DSA">
-  <img src="Images/logo.png" alt="Logo" width="80" height="80">
+  <img src="Images/logo2.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">DSA</h3>
