@@ -16,7 +16,7 @@
     <br />
    </p>
 
-   - - -
+- - -
    ## Table of Contents
 
 * [About the Project](#about-the-project)
@@ -25,7 +25,8 @@
 * [Get a local copy](#get-a-local-copy)
 * [Contributing](#contributing)
 * [Contact](#contact)
-   - - -
+
+- - -
 
  ## About The Project
 <p>This project is a comprehensive collection of Data Structures and Algorithms (DSA), aimed at helping learners and developers understand and implement these fundamental concepts. The repository includes well-documented code examples, explanations, and practical applications for each data structure and algorithm.</p>
@@ -76,6 +77,6 @@ Kuldeep Padshala - 24010101196@darshan.ac.in
 Social - [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/kuldeep-patel-5434b9242/) |
          [![GitHub](https://img.shields.io/github/followers/Kuldeep-Padshala?style=social)](https://github.com/Kuldeep-Padshala) 
          
-Project Link: [DSA Clone-Repository](https://github.com/Kuldeep-Padshala/DSA/tree/main-branch)
+Project Link: [DSA Clone-Repository](https://github.com/Kuldeep-Padshala/DSA)
 
 - - -
