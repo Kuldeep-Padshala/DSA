@@ -1,5 +1,5 @@
 [![Contributors](https://img.shields.io/github/contributors/Kuldeep-Padshala/DSA)](https://github.com/Kuldeep-Padshala/DSA/graphs/contributors)
-[![Forks](https://img.shields.io/github/forks/Kuldeep-Padshala/DSA)](https://github.com/Kuldeep-Padshala/DSA/forks)
+[![GitHub forks](https://img.shields.io/github/forks/Kuldeep-Padshala/DSA)](https://github.com/Kuldeep-Padshala/DSA/forks)
 [![Issues](https://img.shields.io/github/issues/Kuldeep-Padshala/DSA)](https://github.com/Kuldeep-Padshala/DSA/graphs/issues)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/kuldeep-patel-5434b9242/)
 
