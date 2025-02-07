@@ -7,7 +7,7 @@
 
 <br />
 <p align="center">
-  <a href="https://github.com/fabio-mancin/recycle">
+  <a href="https://github.com/Kuldeep-Padshala/DSA">
     <img src="Images/Logo.png" alt="Logo" width="80" height="80">
   </a>
 
