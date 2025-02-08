@@ -11,7 +11,7 @@
   <h3 align="center">DSA</h3>
 
    <p align="center">
-    A Complete in-depth Resource of <b>Data Structures and Algorithms</b>.
+    A Complete in-depth Resource for <b>Data Structures and Algorithms</b>.
     <br />
     <br />
    </p>
@@ -53,7 +53,7 @@ git clone https://github.com/Kuldeep-Padshala/DSA.git
 ```
 **Navigate into the newly created folder**
 ```
-cd newsweek
+cd DSA
 ```
 
 **Open the index.html file in your browser to see the website** 
