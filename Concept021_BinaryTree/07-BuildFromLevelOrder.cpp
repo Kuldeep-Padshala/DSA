@@ -1,8 +1,3 @@
-// inOrder Traversal -> LNR
-// L -> go to left
-// N -> print node
-// R -> go to right
-
 #include<iostream>
 #include<queue>
 using namespace std;
@@ -20,23 +15,38 @@ class node {
     }
 };
 
- node* buildTree(node* root) {
+void buildFromLevelOrder(node* &root) {
+    queue<node*> q;
 
-    cout << "Enter the data: " << endl;
-    int data;
+    cout << "Enter data for root" << endl;
+    int data ;
     cin >> data;
-    root = new node(data);    
+    root = new node(data);
+    
+    q.push(root);
 
-    if(data == -1) {       // considering it as no child
-        return NULL;
+    while(!q.empty()) {
+        node* temp = q.front();
+        q.pop();
+
+        cout << "Enter left node for: " << temp->data << endl;
+        int leftData;
+        cin >> leftData;
+
+        if(leftData != -1) {
+            temp -> left = new node(leftData);
+            q.push(temp->left);
+        }
+
+        cout << "Enter right node for: " << temp->data << endl;
+        int rightData;
+        cin >> rightData;
+
+        if(rightData != -1) {
+            temp -> right = new node(rightData);
+            q.push(temp->right);
+        }
     }
-
-    cout << "Enter data for inserting in left of " << data << endl;
-    root->left = buildTree(root->left);
-    cout << "Enter data for inserting in right of " << data << endl;
-    root->right = buildTree(root->right);
-    return root;
-
 }
 
 void levelOrderTraversal(node* root) {
@@ -78,36 +88,15 @@ void levelOrderTraversal(node* root) {
 
 }
 
-void inOrder(node* root) {
-    //base case
-    if(root == NULL) {
-        return ;
-    }
-
-    inOrder(root->left);
-    cout << root-> data << " ";
-    inOrder(root->right);
-
-}
-
 int main() {
 
     node* root = NULL;
 
-    // buildFromLevelOrder(root);
-    levelOrderTraversal(root);
-    // 1 3 5 7 11 17 -1 -1 -1 -1 -1 -1 -1
-
     //creating a Tree
-    root = buildTree(root);
+    buildFromLevelOrder(root);
 
-
-    //level order
     cout << "Printing the level order tracersal output " << endl;
     levelOrderTraversal(root);
-
-    cout << "inOrder traversal is:  ";
-    inOrder(root); 
 
     return 0;
 }

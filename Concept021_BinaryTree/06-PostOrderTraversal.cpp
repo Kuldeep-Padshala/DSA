@@ -1,6 +1,6 @@
-// inOrder Traversal -> LNR
-// L -> go to left
+// postOrder Traversal -> LRN
 // N -> print node
+// L -> go to left
 // R -> go to right
 
 #include<iostream>
@@ -78,15 +78,15 @@ void levelOrderTraversal(node* root) {
 
 }
 
-void inOrder(node* root) {
+void postOrder(node* root) {
     //base case
     if(root == NULL) {
         return ;
     }
 
-    inOrder(root->left);
+    postOrder(root->left);
+    postOrder(root->right);
     cout << root-> data << " ";
-    inOrder(root->right);
 
 }
 
@@ -101,13 +101,12 @@ int main() {
     //creating a Tree
     root = buildTree(root);
 
-
     //level order
     cout << "Printing the level order tracersal output " << endl;
     levelOrderTraversal(root);
 
-    cout << "inOrder traversal is:  ";
-    inOrder(root); 
+    cout << "inorder traversal is:  ";
+    postOrder(root); 
 
     return 0;
 }

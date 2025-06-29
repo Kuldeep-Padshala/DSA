@@ -15,7 +15,7 @@ class node {
     }
 };
 
-node* buildTree(node* root) {
+node* buildTree(node* &root) {
 
     cout << "Enter the data: " << endl;
     int data;
@@ -39,7 +39,7 @@ int main() {
     node* root = NULL;
 
     //creating a Tree
-    root = buildTree(root);
+    buildTree(root);
 
 
     return 0;
