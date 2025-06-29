@@ -75,7 +75,6 @@ void levelOrderTraversal(node* root) {
             }
         }
     }
-
 }
 
 void inOrder(node* root) {
@@ -101,9 +100,8 @@ int main() {
     //creating a Tree
     root = buildTree(root);
 
-
     //level order
-    cout << "Printing the level order tracersal output " << endl;
+    cout << "Printing the level order traversal output " << endl;
     levelOrderTraversal(root);
 
     cout << "inOrder traversal is:  ";

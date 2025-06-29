@@ -135,15 +135,13 @@ int main() {
     //creating a Tree
     root = buildTree(root);
 
-
     //level order
-    cout << "Printing the level order tracersal output " << endl;
+    cout << "Printing the level order traversal output " << endl;
     levelOrderTraversal(root);
 
     //Reverse level order
-    cout << "Printing the Reverse level order tracersal output " << endl;
+    cout << "Printing the Reverse level order traversal output " << endl;
     reverseLevelOrderTraversal(root);
-
 
     return 0;
 }

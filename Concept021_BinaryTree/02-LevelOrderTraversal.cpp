@@ -45,8 +45,6 @@ void levelOrderTraversal(node* root) {
     q.push(NULL);
     // 50 20 15 -1 -1 5 -1 -1 30 12 6 -1 -1 6 -1 -1 18 8 -1 -1 10 5 -1 -1 -1
 
-    // 50, null, 
-
     while(!q.empty()) {
         node* temp = q.front();
         q.pop();                        //removes front
@@ -85,7 +83,7 @@ int main() {
 
 
     //level order
-    cout << "Printing the level order tracersal output " << endl;
+    cout << "Printing the level order traversal output " << endl;
     levelOrderTraversal(root);
 
 

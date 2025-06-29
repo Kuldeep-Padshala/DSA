@@ -16,6 +16,7 @@ class node {
 };
 
 void buildFromLevelOrder(node* &root) {
+    
     queue<node*> q;
 
     cout << "Enter data for root" << endl;
@@ -95,7 +96,7 @@ int main() {
     //creating a Tree
     buildFromLevelOrder(root);
 
-    cout << "Printing the level order tracersal output " << endl;
+    cout << "Printing the level order traversal output " << endl;
     levelOrderTraversal(root);
 
     return 0;
