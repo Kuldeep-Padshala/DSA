@@ -107,6 +107,5 @@ int main() {
     else{
         cout << "qack is not Empty" << endl;
     }
-
     return 0;
 }
