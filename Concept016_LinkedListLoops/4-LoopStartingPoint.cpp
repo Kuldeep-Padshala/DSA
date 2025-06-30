@@ -95,7 +95,7 @@ Node* floydDetectLoop(Node* head) {
     Node* slow = head;
     Node* fast = head;
 
-    while(slow != NULL && fast !=NULL) {   // inside the llop with each iteration, distance betwwen slow and fast will be reduce by one
+    while(slow != NULL && fast !=NULL) {   // inside the loop with each iteration, distance betwwen slow and fast will be reduce by one
         
         fast = fast -> next;
         if(fast != NULL) {
