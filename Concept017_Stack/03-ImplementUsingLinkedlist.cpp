@@ -13,19 +13,20 @@ class Node {
 };
 
 class Stack {
+
     private:
         Node* top;
 
     public:
         Stack() {
             top = NULL;
-        } 
+        }
 
     void push(int element) {                            //functions as insertAtHead
         Node* newNode = new Node(element);
         if (top == NULL) {
             top = newNode;
-        } 
+        }
         else {
             newNode->next = top;
             top = newNode;
@@ -44,6 +45,7 @@ class Stack {
     }
 
     int peek() {
+        
         if (top != NULL)
             return top->val;
         else {
