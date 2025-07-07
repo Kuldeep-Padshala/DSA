@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <string.h>
+#include <queue>
 using namespace std;
 
 class Node {
@@ -14,23 +15,6 @@ public:
         left = right = NULL;
     }
 };
-
-void printBT(const string& prefix, const Node* root, bool isLeft)
-{
-    if( root != NULL )
-    {
-        cout << prefix;
-
-        cout << (isLeft ? "(const char [10])" : "(const char [10])" );
-
-        // print the value of the node
-        cout << root->data << endl;
-
-        // enter the next tree level - left and right branch
-        printBT( prefix + (isLeft ? "(const char [7])" : "    "), root->left, true);
-        printBT( prefix + (isLeft ? "(const char [10])" : "    "), root->right, false);
-    }
-}
 
 Node* insertIntoBST(Node* &root,int x){
 
@@ -60,33 +44,93 @@ void takeInput(Node* &root){
     }
 }
 
+void levelOrderTraversal(Node* root) {
+
+    if(root == NULL){
+        cout << "Tree is empty."<<endl;
+        return;
+    }
+    queue<Node*> q;
+    q.push(root);
+    q.push(NULL);
+    // 50 20 15 -1 -1 5 -1 -1 30 12 6 -1 -1 6 -1 -1 18 8 -1 -1 10 5 -1 -1 -1
+
+    while(!q.empty()) {
+        Node* temp = q.front();
+        q.pop();                        //removes front
+
+        if(temp == NULL) { 
+            //purana level complete traverse ho chuka hai
+            cout << endl;
+            if(!q.empty()) { 
+                //queue still has some child ndoes
+                q.push(NULL);
+            }  
+        }
+        else{
+            cout << temp -> data << " ";
+            if(temp -> left != NULL) {
+                q.push(temp ->left);
+            }
+
+            if(temp ->right != NULL) {
+                q.push(temp ->right);
+            }
+        }
+    }
+
+}
+
+void inOrder(Node* root) {
+    //base case
+    if(root == NULL) {
+        return ;
+    }
+
+    inOrder(root->left);
+    cout << root-> data << " ";
+    inOrder(root->right);
+
+}
+
+void preOrder(Node* root) {
+    //base case
+    if(root == NULL) {
+        return ;
+    }
+
+    cout << root-> data << " ";
+    preOrder(root->left);
+    preOrder(root->right);
+
+}
+
+void postOrder(Node* root) {
+    //base case
+    if(root == NULL) {
+        return ;
+    }
+
+    postOrder(root->left);
+    postOrder(root->right);
+    cout << root-> data << " ";
+}
+
+
 int main(){
     Node* root = NULL;
     cout << "Enter data:"<< endl;
     takeInput(root);
-    printBT("", root, false);
 
-    //to rotate 90deg clockwise
-    int n = mat.size();
+    cout << "Level order traversal of the BST is: " << endl;
+    levelOrderTraversal(root);
 
-    for (int i = 0; i < n-1; i++) {
-            for (int j = i+1; j < n; j++) {        
-                
-                swap(mat[i][j], mat[j][i]);             
-
-            }
-        }
-
-    for (int i = 0; i < n/2; i++) {
-            for (int j = 0; j < n; j++) {
-
-               swap(mat[i][j], mat[n-1-i][j]); 
-            }
-        }
-
-     //to rotate 90deg anticlockwise
-
-     
+    cout << endl << "Preorder:" << endl;
+    preOrder(root);
+    cout << endl <<"Inorder:" << endl;
+    inOrder(root);
+    cout << endl <<"Postorder: " << endl;
+    postOrder(root);
 
     return 0;
 
