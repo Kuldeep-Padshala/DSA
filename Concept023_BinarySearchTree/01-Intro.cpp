@@ -4,6 +4,8 @@
 #include <queue>
 using namespace std;
 
+// BST no inorder traversal is Sorted
+
 class Node {
 public:
     int data;
