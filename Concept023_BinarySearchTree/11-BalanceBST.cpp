@@ -26,7 +26,6 @@ TreeNode* inoToBST(int s, int e, vector<int> ino){
   root->left = inoToBST(s, mid-1, ino);
   root->right = inoToBST(mid+1, e, ino);
   return root;
-
 }
 
     TreeNode* balanceBST(TreeNode* root) {
