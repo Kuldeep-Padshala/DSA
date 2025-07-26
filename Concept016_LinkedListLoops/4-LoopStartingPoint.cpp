@@ -108,7 +108,6 @@ Node* floydDetectLoop(Node* head) {
             return slow;
         }
     }
-
     return NULL;
 }
 
