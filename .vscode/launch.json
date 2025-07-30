@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/kulde/OneDrive/Desktop/Programming/DSA/Concept003_Array",
-      "program": "c:/Users/kulde/OneDrive/Desktop/Programming/DSA/Concept003_Array/build/Release/outRelease",
+      "cwd": "c:/Users/kulde/OneDrive/Desktop/Programming/DSA/Concept026_HashmapsProblems",
+      "program": "c:/Users/kulde/OneDrive/Desktop/Programming/DSA/Concept026_HashmapsProblems/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

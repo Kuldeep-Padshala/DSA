@@ -60,7 +60,8 @@
     "COMMIT_EDITMSG": "cpp",
     "iostream": "cpp",
     "ostream": "cpp",
-    "vector": "cpp"
+    "vector": "cpp",
+    "unordered_map": "cpp"
   },
   "C_Cpp.errorSquiggles": "disabled",
   "liveServer.settings.port": 5501
