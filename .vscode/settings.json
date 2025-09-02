@@ -61,7 +61,9 @@
     "iostream": "cpp",
     "ostream": "cpp",
     "vector": "cpp",
-    "unordered_map": "cpp"
+    "unordered_map": "cpp",
+    "map": "cpp",
+    "valarray": "cpp"
   },
   "C_Cpp.errorSquiggles": "disabled",
   "liveServer.settings.port": 5501
