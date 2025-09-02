@@ -20,7 +20,5 @@ public:
           pref_sum[sum]++;
         }
         return ans;
-
-
     }
 };

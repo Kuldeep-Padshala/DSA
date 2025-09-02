@@ -17,7 +17,6 @@ public:
           else{
             sum += 1;
           }
-
           if(firstIndex.count(sum)){          // equal 0s and 1s
             ans = max(ans, i - firstIndex[sum]);
           } 
