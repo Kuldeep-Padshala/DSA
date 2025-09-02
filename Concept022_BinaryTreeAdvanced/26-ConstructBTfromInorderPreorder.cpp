@@ -39,7 +39,8 @@ TreeNode* solve(vector<int>& preorder, vector<int>& inorder,int &index,int inSta
   return root;
 }
 
-    TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
+    
+TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
         int preIndex = 0;
         int n = preorder.size();
         TreeNode* ans = solve(preorder, inorder, preIndex, 0, n-1, n);
