@@ -1,6 +1,6 @@
 class Solution {
     
-    void prepareAdjacencyList(vector<vector<int>>& adjList, vector<vector<int>>& edges) {   // disconnected vada case mate
+void prepareAdjacencyList(vector<vector<int>>& adjList, vector<vector<int>>& edges) {   // disconnected vada case mate
 
     for (auto edge : edges) {
         int u = edge[0];
