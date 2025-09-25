@@ -14,7 +14,6 @@ class Solution {
     q.push({row, col});
 
 
-
     while(!q.empty()){
 
       int row = q.front().first;
