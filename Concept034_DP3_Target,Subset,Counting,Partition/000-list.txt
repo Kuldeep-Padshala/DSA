@@ -1,0 +1,3 @@
+560. Subarray Sum Equals K (prefix sum + hashmap, target-based)
+410. Split Array Largest Sum (partition into k subarrays → classic target/partition DP, optimized with binary search)
+2327. Number of People Aware of a Secret (day-by-day DP)
