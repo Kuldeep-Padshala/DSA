@@ -1,0 +1,18 @@
+Swap two numbers
+Check K-th Bit
+Set kth bit
+Toggle the ith bit
+Set the rightmost unset bit
+
+231. Power of Two
+191. Number of 1 Bits
+2220. Minimum Bit Flips to Convert Number
+78. Subsets
+90. Subsets II
+136. Single Number
+137. Single Number II
+260. Single Number III
+1486. XOR Operation in an Array
+29. Divide Two Integers
+
+868. Binary Gap

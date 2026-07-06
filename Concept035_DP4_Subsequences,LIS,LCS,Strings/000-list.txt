@@ -1,0 +1,7 @@
+32. Longest Valid Parentheses
+140. Word Break II
+474. Ones and Zeroes
+960. Delete Columns to Make Sorted III
+1671. Minimum Number of Removals to Make Mountain Array
+646. Maximum Length of Pair Chain
+2977. Minimum Cost to Convert String II
